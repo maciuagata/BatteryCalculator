@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_app_name"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <EditText
+        android:id="@+id/numberField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="130dp"
+        android:hint="Input volt"
+        android:textColorHint="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="90dp"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="130dp"
+        android:hint="Input watt"
+        android:textColorHint="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/convertId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:background="@color/colorConvert"
+        android:text="@string/CONVERT"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/resetId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:background="@color/colorReset"
+        android:text="@string/Reset"
+        android:layout_marginLeft="280dp"
+        />
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/colorConvert"
+        android:layout_centerHorizontal="true"
+        >
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volt"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:id="@+id/volt0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volt0"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="300dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/watt"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/watt0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watt0"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/amper"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/amper0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="300dp"
+        android:text="@string/amper0"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Agata Maciulevic"
+        android:textSize="25dp"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/colorBlack"/>
+
+
+</RelativeLayout>

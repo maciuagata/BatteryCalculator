@@ -1,0 +1,12 @@
+<resources>
+<string name="app_name">BatteryCalculator</string>
+<string name="my_app_name">Battery Calculator</string>
+<string name="CONVERT">CONVERT </string>
+<string name="Reset">RESET</string>
+<string name="volt">Volts</string>
+<string name="watt">Watts</string>
+<string name="volt0">00.00</string>
+<string name="watt0">00.00</string>
+    <string name="amper0">00.00</string>
+    <string name="amper">Ampers</string>
+</resources>
